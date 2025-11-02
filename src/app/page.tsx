@@ -11,7 +11,6 @@ export default function Home() {
     "flicks and licks",
     "northern braids bar",
     "rsl",
-    "tech assured",
   ];
 
   const pricing = [
@@ -68,13 +67,24 @@ export default function Home() {
           </Link>
         </div>
 
-        {/* Services List */}
-        <div className="flex flex-wrap justify-center gap-4 mb-8 text-sm">
-          {services.map((service, index) => (
-            <span key={index} className="text-foreground">
-              {service}
-            </span>
-          ))}
+        {/* Services List - Single Line */}
+        <div className="mb-6 text-center">
+          <div className="text-sm text-foreground whitespace-nowrap overflow-x-auto pb-2">
+            {services.map((service, index) => (
+              <span key={index}>
+                {service}
+                {index < services.length - 1 && " • "}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        {/* Partners Marquee */}
+        <div className="mb-8 text-center">
+          <p className="text-xs text-foreground/70 mb-1">Partners</p>
+          <div className="text-sm text-foreground">
+            tech assured
+          </div>
         </div>
 
         {/* Pricing Table */}
