@@ -34,7 +34,7 @@ export default function Home() {
         {/* Portrait Image with Gradient Overlay - Fixed Container */}
         <div className="mb-6 w-[393px] h-[483px] mx-auto relative overflow-hidden">
           <Image
-            src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/tee2-1-1762100981949.png?width=8000&height=8000&resize=contain"
+            src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Frame-1-1762101450604.png?width=8000&height=8000&resize=contain"
             alt="Adjoa Tee"
             fill
             className="object-cover object-center scale-110"
