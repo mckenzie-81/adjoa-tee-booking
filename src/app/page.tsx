@@ -32,15 +32,17 @@ export default function Home() {
           </h1>
         </div>
 
-        {/* Portrait Image */}
+        {/* Portrait Image with Gradient Overlay */}
         <div className="mb-6 w-full aspect-[3/4] relative overflow-hidden">
           <Image
-            src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=800&h=1200&fit=crop"
+            src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/tee2-1-1762100981949.png?width=8000&height=8000&resize=contain"
             alt="Adjoa Tee"
             fill
             className="object-cover"
             priority
           />
+          {/* Gradient Overlay */}
+          <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent"></div>
         </div>
 
         {/* Social Media Icons */}
