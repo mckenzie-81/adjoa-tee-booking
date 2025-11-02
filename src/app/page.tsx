@@ -31,13 +31,13 @@ export default function Home() {
           </h1>
         </div>
 
-        {/* Portrait Image with Gradient Overlay */}
-        <div className="mb-6 w-full aspect-[3/4] relative overflow-hidden">
+        {/* Portrait Image with Gradient Overlay - Fixed Container */}
+        <div className="mb-6 w-[393px] h-[483px] mx-auto relative overflow-hidden">
           <Image
             src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/tee2-1-1762100981949.png?width=8000&height=8000&resize=contain"
             alt="Adjoa Tee"
             fill
-            className="object-cover"
+            className="object-cover object-center scale-110"
             priority
           />
           {/* Gradient Overlay */}
